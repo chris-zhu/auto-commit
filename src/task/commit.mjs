@@ -35,10 +35,8 @@ async function read2write() {
  * 处理git commit push
  */
 async function handleGit() {
-    console.log('git add')
     await $`git add .`
-    console.log('git commit')
     await $`git commit -m 'this is my ${count} commit'`
-    console.log('git push')
     await $`git push`
+    console.log('down')
 }
