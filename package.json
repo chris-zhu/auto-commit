@@ -8,10 +8,11 @@
   "license": "MIT",
   "scripts": {
     "clone": "npx zx src/clone/index.mjs",
-    "dev": "npx zx src/index.mjs"
+    "serve": "npx zx src/index.mjs"
   },
   "config": {
     "port": "1111",
+    "dir": "repos",
     "user": "chris-zhu"
   },
   "dependencies": {
