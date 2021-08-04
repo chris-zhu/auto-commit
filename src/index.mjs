@@ -1,7 +1,7 @@
 #! /usr/bin/env zx
 
 import { createServer } from 'http'
-import { stopAll } from './task'
+import { stopAll } from './task/index.mjs'
 
 const server = createServer()
 

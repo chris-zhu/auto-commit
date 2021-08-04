@@ -1,5 +1,5 @@
 import { ToadScheduler } from 'toad-scheduler'
-import { job as commitJob } from './commit'
+import { job as commitJob } from './commit.mjs'
 
 
 const jobs = [commitJob]
