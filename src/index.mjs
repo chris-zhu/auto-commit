@@ -1,6 +1,10 @@
 #! /usr/bin/env zx
 
-console.log('zxxx');
+import { createServer } from 'http'
+
+const server = createServer()
 
 
-// todo
+server.listen(1337, () => {
+    console.log('listening on 1337')
+})

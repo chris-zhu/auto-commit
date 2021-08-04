@@ -7,13 +7,15 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "clone": "npx zx src/cloneAllReops.mjs"
+    "clone": "npx zx src/clone/index.mjs",
+    "dev": "npx zx src/index.mjs"
   },
   "config": {
     "port": "1111",
     "user": "chris-zhu"
   },
   "dependencies": {
+    "toad-scheduler": "^1.5.0",
     "zx": "^2.0.0"
   }
 }
