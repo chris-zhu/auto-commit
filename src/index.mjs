@@ -7,7 +7,7 @@ const server = createServer()
 
 setTimeout(() => {
     stopAll()
-}, 20000);
+}, 2000000);
 
 server.listen(1337, () => {
     console.log('listening on 1337')

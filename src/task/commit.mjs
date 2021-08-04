@@ -6,7 +6,7 @@ import path from 'path'
 
 const config = {
     taskName: 'commit_task',
-    schedule: { seconds: 8 }
+    schedule: { seconds: 8, runImmediately: true }
 }
 
 const task = new AsyncTask(config.taskName, work)
