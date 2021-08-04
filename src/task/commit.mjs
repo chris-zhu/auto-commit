@@ -38,5 +38,7 @@ async function read2write() {
 async function handleGit() {
   await $`git add .`
   await $`git commit -m 'This is a meaningless submission at ${count}'`
+  await $`git pull`
   await $`git push`
+  console.log('done')
 }
