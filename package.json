@@ -1,0 +1,19 @@
+{
+  "name": "auto-commit",
+  "version": "1.0.0",
+  "main": "src/index.mjs",
+  "repository": "git@github.com:chris-zhu/autoCommit.git",
+  "author": "chris <1633711653@qq.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "clone": "npx zx src/cloneAllReops.mjs"
+  },
+  "config": {
+    "port": "1111",
+    "user": "chris-zhu"
+  },
+  "dependencies": {
+    "zx": "^2.0.0"
+  }
+}
