@@ -7,7 +7,7 @@ import path from 'path'
 let count = 1 // 记录提交了多少次
 const config = {
   taskName: 'commit_task',
-  schedule: { hours: 1, runImmediately: true } // Submit every hour
+  schedule: { hours: 3, runImmediately: true } // Submit every hour
 }
 const task = new AsyncTask(config.taskName, work)
 export const job = new SimpleIntervalJob(config.schedule, task)
