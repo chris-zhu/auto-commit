@@ -13,8 +13,10 @@ const task = new AsyncTask(config.taskName, work)
 export const job = new SimpleIntervalJob(config.schedule, task)
 
 async function work() {
-  await read2write()
-  await handleGit()
+  if (Math.random() > 0.2) {
+    await read2write()
+    await handleGit()
+  }
 }
 
 export function stop() {
