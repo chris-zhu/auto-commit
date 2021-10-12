@@ -14,6 +14,7 @@ export const job = new SimpleIntervalJob(config.schedule, task)
 
 async function work() {
   if (Math.random() > 0.2) {
+    
     await read2write()
     await handleGit()
   }
