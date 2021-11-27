@@ -66,3 +66,6 @@ or
 yarn run clone -- xxx // xxx is your github_username
 
 ```
+
+
+![Alt](https://repobeats.axiom.co/api/embed/58caf6203631bcdb9bbe22f0728a0af1683dc0bb.svg 'Repobeats analytics image')
